@@ -1,0 +1,14 @@
+body {
+    background-color: lightgray;
+}
+
+#gameCanvas {
+    position: absolute;
+    border: 3px solid black;
+    fill: blueviolet;
+    width: 500px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+}
