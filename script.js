@@ -196,7 +196,7 @@ function drawGame() {
 }
 
 addEventListener ('keydown', function(e) {
-    if (e.code === 'Space' && jump === false) {
+    if (e.code === 'Space') {
         jump = true;
     }
     if (e.code === 'KeyS') {
