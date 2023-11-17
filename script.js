@@ -201,6 +201,7 @@ addEventListener ('keydown', function(e) {
     }
     if (e.code === 'KeyS') {
         gameOver = false;
+        score = 0;
     }
 })
 
